@@ -20,6 +20,16 @@
 
 /*Recipies*/
 
+.recipes h3{
+	font-family: 'Bentham', sans-serif;
+	font-size: 28px;
+	color: #404040;
+	text-align: center;
+}
+
+
+
+
 html, body {
   margin: 0;
   padding: 0;
