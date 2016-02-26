@@ -32,17 +32,20 @@
 					<div class="col-md-4">
 						<h3>Breakfast &amp; Lunch </h3>
 					</div>
+					
 					<div class="col-md-4" ng-controller="RecipeController as recipe">
 						<h3>Dinner</h3>
-
-						<div ng-repeat="recipe in recipe.products">
-							<div class="gallery">
-								<img ng-src='{{recipe.images}}'/>
+						<div class="recipe-container">
+							<div ng-repeat="recipe in recipe.products">
+								<div class="gallery">
+									<img ng-src='{{recipe.images}}'/>
+								</div>
+								<h4>{{recipe.name}}</h4>
+								<p>{{recipe.ingredients}}</p>
 							</div>
-							<h4>{{recipe.name}}</h4>
-							<p>{{recipe.ingredients}}</p>
 						</div>
 					</div>
+					
 					<div class="col-md-4">
 						<h3>Desserts</h3>
 					</div>

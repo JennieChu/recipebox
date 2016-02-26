@@ -26,6 +26,7 @@
 	color: #404040;
 	text-align: center;
 	padding-bottom: 30px;
+
 }
 
 .recipes h4, p {
@@ -46,7 +47,12 @@
 	font-weight: bold;
 }
 
+.recipe-container{
+	background-color: #F0F0F0;
+}
+
 .gallery img {
+	padding-top: 30px;
 	width: 300px;
 	max-height: 400px;
 	display: block;
