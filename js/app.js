@@ -11,11 +11,16 @@
 		name: 'Honey Pork Belly',
 		ingredients: 'Pork Belly, Honey, Soy Sauce',
 		picture: '',
+		images: [
+			'../photos/honeyporkbelly.jpg',
+		],
 	},
 	{
 		name: 'Teriyaki Chicken Wings',
 		ingredients: 'Chicken wings, Teriyaki Sauce',
-		picture: '',
+		images:[
+			'../photos/teriyakichicken.jpg',
+		],
 	},
 	
 	]
