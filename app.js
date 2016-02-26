@@ -1,7 +1,7 @@
 (function() {
 	var app = angular.module('recipeBook', []);
 
-	app.controller('RecipeController',function(){
+	app.controller('DinnerRecipeController',function(){
 		this.products = dinnerRecipes;
 	});
 
@@ -17,6 +17,11 @@
 		name: 'Teriyaki Chicken Wings',
 		ingredients: 'Chicken wings, Teriyaki Sauce',
 		images: "images/teriyakichicken.jpg",
+	},
+	{
+		name: 'Panko Baked Chicken Thighs',
+		ingredients: 'Chicken thighs, Panko, Milk, Flour, Eggs',
+		images: "images/pankochicken.jpg",
 	},
 	
 	]
