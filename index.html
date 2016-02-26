@@ -5,8 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
 		<link href='https://fonts.googleapis.com/css?family=Quicksand|Bentham|IM+Fell+English+SC' rel='stylesheet' type='text/css'/>
 		<link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css"/>
-		<script type="text/javascript" src="js/angular.min.js"></script>
-    	<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="angular.min.js"></script>
+    	<script type="text/javascript" src="app.js"></script>
 	</head>
 	<body>
 		<div class="header">
@@ -37,7 +37,7 @@
 
 						<div ng-repeat="recipe in recipe.products">
 							<div class="gallery">
-								<img ng-src="{{recipe.images}}"/>
+								<img ng-src='{{recipe.images}}'/>
 							</div>
 							<h4>{{recipe.name}}</h4>
 							<p>{{recipe.ingredients}}</p>
