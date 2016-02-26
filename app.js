@@ -24,6 +24,20 @@
 		images: "images/pankochicken.jpg",
 	},
 	
-	]
+	];
+
+	app.controller('DessertRecipeController', function(){
+		this.products = dessertRecipes;
+	});
+
+	var dessertRecipes = [
+	{
+		name: '',
+		ingredients: '',
+		images: "",
+		
+	},
+
+	];
 
 })();
