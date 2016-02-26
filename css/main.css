@@ -25,14 +25,39 @@
 	font-size: 28px;
 	color: #404040;
 	text-align: center;
+	padding-bottom: 30px;
+}
+
+.recipes h4, p {
+	text-align: center;
+
+}
+
+.recipes h4{
+	padding-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Inconsolata', sans-serif;
+}
+
+.recipes p {
+	padding-bottom: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
 }
 
 .gallery img {
 	width: 300px;
 	max-height: 400px;
+	display: block;
+	margin: 0 auto;
 }
 
 
+.col-md-4 {
+	
+
+}
 
 html, body {
   margin: 0;
