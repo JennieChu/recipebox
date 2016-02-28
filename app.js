@@ -1,6 +1,19 @@
 (function() {
 	var app = angular.module('recipeBook', []);
 
+	app.controller('BrunchRecipeController', function(){
+		this.products = brunchRecipes;
+	});
+
+	var brunchRecipes = [
+	{
+		name:'',
+		ingredients: '',
+		images: ""
+	},
+
+	]
+
 	app.controller('DinnerRecipeController',function(){
 		this.products = dinnerRecipes;
 	});
