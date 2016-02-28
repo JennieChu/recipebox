@@ -48,6 +48,13 @@
 					
 					<div class="col-md-4" ng-controller="DessertRecipeController as recipe">
 						<h3>Desserts</h3>
+						<div ng-repeat="recipe in recipe.products">
+							<div class="gallery">
+								<img ng-src='{{recipe.images}}'/>
+							</div>
+							<h4>{{recipe.name}}</h4>
+							<p>{{recipe.ingredients}}</p>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -32,9 +32,9 @@
 
 	var dessertRecipes = [
 	{
-		name: '',
-		ingredients: '',
-		images: "",
+		name: 'Cocoa Brownies',
+		ingredients: 'Dutch Cocoa Powder, Sugar, Vanilla Extrat, Flour, Eggs',
+		images: "images/brownies.jpg",
 		
 	},
 
